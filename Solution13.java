@@ -1,7 +1,7 @@
 import java.util.*;
 import java.text.*;
 
-public class Solution 
+public class Solution13
 {
     public static void main(String arg[]) 
     {
