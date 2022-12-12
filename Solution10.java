@@ -34,6 +34,10 @@ public class Solution10
         {
             System.out.println(eobj);
         }
+        finally
+        {
+            sobj.close();
+        }
     }
 
     public static void main(String arg[])

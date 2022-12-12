@@ -1,6 +1,4 @@
 import java.util.*;
-import java.io.*;
-import java.lang.Math.*;
 
 public class Solution8
 {
@@ -35,6 +33,10 @@ public class Solution8
             catch(Exception eobj)
             {
                 System.out.println(sobj.next()+" can't be fitted anywhere.");
+            }
+            finally
+            {
+                sobj.close();
             }
         }
     }

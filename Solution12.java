@@ -15,7 +15,7 @@ class Result
         // Using get() method with DAY_OF_WEEK characteistic of Calender class
         // as parameter to get day of week inside dayInInt(integer) variable;
         // Default first day of week is considered as SUNDAY, but we require MONDAY as 1 
-        int dayInInt = cobj.get(cobj.DAY_OF_WEEK) - 1;
+        int dayInInt = cobj.get(Calendar.DAY_OF_WEEK) - 1;
 
         // Sunday will be 0
         if(dayInInt == 0)

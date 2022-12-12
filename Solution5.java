@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Solution2 
+public class Solution5
 {
 
     public static void main(String[] args) 
@@ -15,5 +15,7 @@ public class Solution2
                 System.out.printf("%-15s%03d\n",s1,x);
             }
             System.out.println("================================");
+
+            sobj.close();
     }
 }

@@ -12,5 +12,7 @@ public class Solution2
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
+
+        sobj.close();
     }
 }
